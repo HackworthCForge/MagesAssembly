@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{307F51A5-D46E-49A4-BD13-0CDCD2E95004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C87138AF-78FA-4CF0-8DC7-E9087D7EE9A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{069EC8C3-B718-4CD7-9D47-A662E7F35482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagesAssembly.Core", "Core\MagesAssembly.Core\MagesAssembly.Core.csproj", "{A379E230-4460-449C-B78A-256BB0E4A67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagesAssembly.Client.WPF", "Applications\MagesAssembly.Client.WPF\MagesAssembly.Client.WPF.csproj", "{17AD7F74-735E-4499-9049-8289E8465841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagesAssembly.Common", "Core\MagesAssembly.Common\MagesAssembly.Common.csproj", "{3EAAD5B0-DB01-4C7F-9F62-B7A73FD7EFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagesAssembly.Tests.EventManager", "Tests\MagesAssembly.Tests.EventManager\MagesAssembly.Tests.EventManager.csproj", "{8A12F9E9-686D-4839-B208-0FFBBDC7B6F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A379E230-4460-449C-B78A-256BB0E4A67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A379E230-4460-449C-B78A-256BB0E4A67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A379E230-4460-449C-B78A-256BB0E4A67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A379E230-4460-449C-B78A-256BB0E4A67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AD7F74-735E-4499-9049-8289E8465841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AD7F74-735E-4499-9049-8289E8465841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AD7F74-735E-4499-9049-8289E8465841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AD7F74-735E-4499-9049-8289E8465841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAAD5B0-DB01-4C7F-9F62-B7A73FD7EFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAAD5B0-DB01-4C7F-9F62-B7A73FD7EFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAAD5B0-DB01-4C7F-9F62-B7A73FD7EFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAAD5B0-DB01-4C7F-9F62-B7A73FD7EFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A12F9E9-686D-4839-B208-0FFBBDC7B6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A12F9E9-686D-4839-B208-0FFBBDC7B6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A12F9E9-686D-4839-B208-0FFBBDC7B6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A12F9E9-686D-4839-B208-0FFBBDC7B6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A379E230-4460-449C-B78A-256BB0E4A67C} = {307F51A5-D46E-49A4-BD13-0CDCD2E95004}
+		{3EAAD5B0-DB01-4C7F-9F62-B7A73FD7EFEE} = {307F51A5-D46E-49A4-BD13-0CDCD2E95004}
+		{8A12F9E9-686D-4839-B208-0FFBBDC7B6F5} = {C87138AF-78FA-4CF0-8DC7-E9087D7EE9A9}
+		{17AD7F74-735E-4499-9049-8289E8465841} = {069EC8C3-B718-4CD7-9D47-A662E7F35482}
+	EndGlobalSection
+EndGlobal
